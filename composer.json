@@ -1,0 +1,15 @@
+{
+    "name": "Custom Contacts Store",
+    "description": "Add more filtering capabilities to contacts store",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Rémi Alvergnat"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

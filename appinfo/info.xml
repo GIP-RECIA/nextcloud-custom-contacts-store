@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>reciacustom</id>
+    <name>Recia Custom</name>
+    <summary>Add custom filtering on collaborators and contacts</summary>
+    <description><![CDATA[Add custom filtering on collaborators and contacts]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="remi.alvergnat@gfi.fr" >Rémi Alvergnat</author>
+    <namespace>ReciaCustom</namespace>
+    <category>customization</category>
+    <bugs>https://github.com/GIP-RECIA/nextcloud-recia-custom-issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <types>
+        <!-- Authentication type makes the application load earlier to be able to hook internal services -->
+        <session/>
+    </types>
+</info>
